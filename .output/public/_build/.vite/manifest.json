@@ -1,0 +1,35 @@
+{
+  "/Users/norbix/dev/tss-hydration-error-react-19/app/styles/globals.css": {
+    "file": "assets/globals-CvEgVYL8.css",
+    "src": "/Users/norbix/dev/tss-hydration-error-react-19/app/styles/globals.css"
+  },
+  "_client-B-FcvFRS.js": {
+    "file": "assets/client-B-FcvFRS.js",
+    "name": "client",
+    "dynamicImports": [
+      "app/routes/index.tsx?tsr-split",
+      "app/routes/index.tsx?tsr-split"
+    ],
+    "assets": [
+      "assets/globals-CvEgVYL8.css"
+    ]
+  },
+  "app/routes/index.tsx?tsr-split": {
+    "file": "assets/index-CaGUVAvW.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-B-FcvFRS.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-nFu5g6kP.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_client-B-FcvFRS.js"
+    ]
+  }
+}
