@@ -27,6 +27,13 @@ export const Route = createRootRoute({
       //   href: "https://fonts.googleapis.com/css?family=Mukta:300,400,600,700,800&display=swap",
       // },
       {
+        rel: "preload",
+        href: "/fonts/CalSans-SemiBold.ttf",
+        as: "font",
+        type: "font/ttf",
+        crossOrigin: "anonymous",
+      },
+      {
         rel: "stylesheet",
         href: globalStyle,
       },
